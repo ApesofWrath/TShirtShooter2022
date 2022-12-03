@@ -1,0 +1,4 @@
+See file:///C:/Users/kians/Desktop/TESTING/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Shooter.cpp successful.
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Users/kians/Desktop/TESTING/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.

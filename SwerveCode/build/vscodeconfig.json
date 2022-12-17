@@ -1,0 +1,459 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "C:\\Users\\Public\\wpilib\\2022\\roborio\\bin\\arm-frc2022-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\Public\\wpilib\\2022\\roborio\\bin\\arm-frc2022-linux-gnueabi-gcc.exe",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4cccab41a37d793ff70d875b35caa88a\\transformed\\wpilibNewCommands-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\6dc3ad02e43d929517c391ac9a9dac33\\transformed\\REVLib-cpp-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\7a61e0aad79958fc99226156420a2d06\\transformed\\REVLib-driver-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\954abdf33839f981d6374e34584edf97\\transformed\\wpiapi-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\77f721fd31d528591355a57fd2f19887\\transformed\\api-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8ade757934480051b4bffa61959578b7\\transformed\\cci-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\289c4a08d5efd012977c1dccd46fe330\\transformed\\wpiapi-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\43979cbbec3e3591d59226dbc792d5cd\\transformed\\api-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\3a0482c9f3da43d2ee9005c69985c895\\transformed\\cci-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\eebebb3fb08beac810afe57c1c316324\\transformed\\simTalonSRX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0419c3d31683d3be169212c2ffdc38d3\\transformed\\simTalonFX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\e405f9186c34fd187bedf3f909224b28\\transformed\\simVictorSPX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9f71bb3a0754c3bf1be902a5097b83b3\\transformed\\simPigeonIMU-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9938d4c04407f39de8f6b1dec177774c\\transformed\\simCANCoder-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b67e108595ab25f47ef827106d790925\\transformed\\wpilibc-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8c825e32ef0d45396ff4d6b5b4937ed3\\transformed\\ntcore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\88abfe04a35b3fcd84bd04938d1f33d0\\transformed\\hal-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\5c1c94f97287023fee0f6524873cd253\\transformed\\wpimath-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\69df7e4e2d0aa81d2577a172da97fdae\\transformed\\wpiutil-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fc3a5549f7273f9b818e7f274a78d986\\transformed\\netcomm-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4a9fca9c1d266d5b95618580c10e0e0e\\transformed\\chipobject-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\229622b710d76f720bbb57836edc0b6c\\transformed\\visa-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\94c64972d2b2bcd41b5dd78b3e64bb00\\transformed\\cameraserver-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fa78e87fd47dd645adeeadb32a79fd94\\transformed\\cscore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0010e3dd4a581fe91f56df7d2c1bbbd0\\transformed\\opencv-cpp-4.5.2-1-headers\\",
+      "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\306f8c2c389f9ecc2eaba9c046d3aa3c\\transformed\\wpilibNewCommands-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9a3970ad6f3101606c4d45d9ee511f43\\transformed\\wpilibc-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\d44a421b72fb35442b058e2d9110b30d\\transformed\\ntcore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c5ad0d1b3cc3f103fe679215d7ffffd5\\transformed\\hal-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\158e7fa35d6bf65a2363f6fafb7c7afb\\transformed\\wpimath-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\742006cb5386cac9e8e38ec31957a11c\\transformed\\wpiutil-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b13246a18a43a394703e9d4656e19404\\transformed\\cameraserver-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c2d91d0831e7532f44a95b5fa7985baa\\transformed\\cscore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\cf5140d6c7ac5d89a714ad04d846a876\\transformed\\opencv-cpp-4.5.2-1-sources\\"
+    ],
+    "allLibSources": [
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\306f8c2c389f9ecc2eaba9c046d3aa3c\\transformed\\wpilibNewCommands-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9a3970ad6f3101606c4d45d9ee511f43\\transformed\\wpilibc-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\d44a421b72fb35442b058e2d9110b30d\\transformed\\ntcore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c5ad0d1b3cc3f103fe679215d7ffffd5\\transformed\\hal-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\158e7fa35d6bf65a2363f6fafb7c7afb\\transformed\\wpimath-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\742006cb5386cac9e8e38ec31957a11c\\transformed\\wpiutil-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b13246a18a43a394703e9d4656e19404\\transformed\\cameraserver-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c2d91d0831e7532f44a95b5fa7985baa\\transformed\\cscore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\cf5140d6c7ac5d89a714ad04d846a876\\transformed\\opencv-cpp-4.5.2-1-sources\\"
+    ],
+    "allLibHeaders": [
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4cccab41a37d793ff70d875b35caa88a\\transformed\\wpilibNewCommands-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\6dc3ad02e43d929517c391ac9a9dac33\\transformed\\REVLib-cpp-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\7a61e0aad79958fc99226156420a2d06\\transformed\\REVLib-driver-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\954abdf33839f981d6374e34584edf97\\transformed\\wpiapi-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\77f721fd31d528591355a57fd2f19887\\transformed\\api-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8ade757934480051b4bffa61959578b7\\transformed\\cci-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\289c4a08d5efd012977c1dccd46fe330\\transformed\\wpiapi-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\43979cbbec3e3591d59226dbc792d5cd\\transformed\\api-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\3a0482c9f3da43d2ee9005c69985c895\\transformed\\cci-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\eebebb3fb08beac810afe57c1c316324\\transformed\\simTalonSRX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0419c3d31683d3be169212c2ffdc38d3\\transformed\\simTalonFX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\e405f9186c34fd187bedf3f909224b28\\transformed\\simVictorSPX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9f71bb3a0754c3bf1be902a5097b83b3\\transformed\\simPigeonIMU-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9938d4c04407f39de8f6b1dec177774c\\transformed\\simCANCoder-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b67e108595ab25f47ef827106d790925\\transformed\\wpilibc-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8c825e32ef0d45396ff4d6b5b4937ed3\\transformed\\ntcore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\88abfe04a35b3fcd84bd04938d1f33d0\\transformed\\hal-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\5c1c94f97287023fee0f6524873cd253\\transformed\\wpimath-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\69df7e4e2d0aa81d2577a172da97fdae\\transformed\\wpiutil-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fc3a5549f7273f9b818e7f274a78d986\\transformed\\netcomm-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4a9fca9c1d266d5b95618580c10e0e0e\\transformed\\chipobject-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\229622b710d76f720bbb57836edc0b6c\\transformed\\visa-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\94c64972d2b2bcd41b5dd78b3e64bb00\\transformed\\cameraserver-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fa78e87fd47dd645adeeadb32a79fd94\\transformed\\cscore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0010e3dd4a581fe91f56df7d2c1bbbd0\\transformed\\opencv-cpp-4.5.2-1-headers\\",
+      "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4cccab41a37d793ff70d875b35caa88a\\transformed\\wpilibNewCommands-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\6dc3ad02e43d929517c391ac9a9dac33\\transformed\\REVLib-cpp-2022.1.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\7a61e0aad79958fc99226156420a2d06\\transformed\\REVLib-driver-2022.1.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\954abdf33839f981d6374e34584edf97\\transformed\\wpiapi-cpp-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\77f721fd31d528591355a57fd2f19887\\transformed\\api-cpp-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8ade757934480051b4bffa61959578b7\\transformed\\cci-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\289c4a08d5efd012977c1dccd46fe330\\transformed\\wpiapi-cpp-sim-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\43979cbbec3e3591d59226dbc792d5cd\\transformed\\api-cpp-sim-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\3a0482c9f3da43d2ee9005c69985c895\\transformed\\cci-sim-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\eebebb3fb08beac810afe57c1c316324\\transformed\\simTalonSRX-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0419c3d31683d3be169212c2ffdc38d3\\transformed\\simTalonFX-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\e405f9186c34fd187bedf3f909224b28\\transformed\\simVictorSPX-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9f71bb3a0754c3bf1be902a5097b83b3\\transformed\\simPigeonIMU-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9938d4c04407f39de8f6b1dec177774c\\transformed\\simCANCoder-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b67e108595ab25f47ef827106d790925\\transformed\\wpilibc-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8c825e32ef0d45396ff4d6b5b4937ed3\\transformed\\ntcore-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\88abfe04a35b3fcd84bd04938d1f33d0\\transformed\\hal-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\5c1c94f97287023fee0f6524873cd253\\transformed\\wpimath-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\69df7e4e2d0aa81d2577a172da97fdae\\transformed\\wpiutil-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fc3a5549f7273f9b818e7f274a78d986\\transformed\\netcomm-2022.2.3-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4a9fca9c1d266d5b95618580c10e0e0e\\transformed\\chipobject-2022.2.3-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\229622b710d76f720bbb57836edc0b6c\\transformed\\visa-2022.2.3-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\94c64972d2b2bcd41b5dd78b3e64bb00\\transformed\\cameraserver-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fa78e87fd47dd645adeeadb32a79fd94\\transformed\\cscore-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0010e3dd4a581fe91f56df7d2c1bbbd0\\transformed\\opencv-cpp-4.5.2-1-headers\\",
+          "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "C:\\Users\\Public\\wpilib\\2022\\roborio\\bin\\arm-frc2022-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\Public\\wpilib\\2022\\roborio\\bin\\arm-frc2022-linux-gnueabi-gcc.exe",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4cccab41a37d793ff70d875b35caa88a\\transformed\\wpilibNewCommands-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\6dc3ad02e43d929517c391ac9a9dac33\\transformed\\REVLib-cpp-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\7a61e0aad79958fc99226156420a2d06\\transformed\\REVLib-driver-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\954abdf33839f981d6374e34584edf97\\transformed\\wpiapi-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\77f721fd31d528591355a57fd2f19887\\transformed\\api-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8ade757934480051b4bffa61959578b7\\transformed\\cci-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\289c4a08d5efd012977c1dccd46fe330\\transformed\\wpiapi-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\43979cbbec3e3591d59226dbc792d5cd\\transformed\\api-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\3a0482c9f3da43d2ee9005c69985c895\\transformed\\cci-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\eebebb3fb08beac810afe57c1c316324\\transformed\\simTalonSRX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0419c3d31683d3be169212c2ffdc38d3\\transformed\\simTalonFX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\e405f9186c34fd187bedf3f909224b28\\transformed\\simVictorSPX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9f71bb3a0754c3bf1be902a5097b83b3\\transformed\\simPigeonIMU-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9938d4c04407f39de8f6b1dec177774c\\transformed\\simCANCoder-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b67e108595ab25f47ef827106d790925\\transformed\\wpilibc-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8c825e32ef0d45396ff4d6b5b4937ed3\\transformed\\ntcore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\88abfe04a35b3fcd84bd04938d1f33d0\\transformed\\hal-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\5c1c94f97287023fee0f6524873cd253\\transformed\\wpimath-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\69df7e4e2d0aa81d2577a172da97fdae\\transformed\\wpiutil-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fc3a5549f7273f9b818e7f274a78d986\\transformed\\netcomm-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4a9fca9c1d266d5b95618580c10e0e0e\\transformed\\chipobject-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\229622b710d76f720bbb57836edc0b6c\\transformed\\visa-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\94c64972d2b2bcd41b5dd78b3e64bb00\\transformed\\cameraserver-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fa78e87fd47dd645adeeadb32a79fd94\\transformed\\cscore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0010e3dd4a581fe91f56df7d2c1bbbd0\\transformed\\opencv-cpp-4.5.2-1-headers\\",
+      "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\306f8c2c389f9ecc2eaba9c046d3aa3c\\transformed\\wpilibNewCommands-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9a3970ad6f3101606c4d45d9ee511f43\\transformed\\wpilibc-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\d44a421b72fb35442b058e2d9110b30d\\transformed\\ntcore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c5ad0d1b3cc3f103fe679215d7ffffd5\\transformed\\hal-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\158e7fa35d6bf65a2363f6fafb7c7afb\\transformed\\wpimath-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\742006cb5386cac9e8e38ec31957a11c\\transformed\\wpiutil-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b13246a18a43a394703e9d4656e19404\\transformed\\cameraserver-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c2d91d0831e7532f44a95b5fa7985baa\\transformed\\cscore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\cf5140d6c7ac5d89a714ad04d846a876\\transformed\\opencv-cpp-4.5.2-1-sources\\"
+    ],
+    "allLibSources": [
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\306f8c2c389f9ecc2eaba9c046d3aa3c\\transformed\\wpilibNewCommands-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9a3970ad6f3101606c4d45d9ee511f43\\transformed\\wpilibc-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\d44a421b72fb35442b058e2d9110b30d\\transformed\\ntcore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c5ad0d1b3cc3f103fe679215d7ffffd5\\transformed\\hal-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\158e7fa35d6bf65a2363f6fafb7c7afb\\transformed\\wpimath-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\742006cb5386cac9e8e38ec31957a11c\\transformed\\wpiutil-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b13246a18a43a394703e9d4656e19404\\transformed\\cameraserver-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\c2d91d0831e7532f44a95b5fa7985baa\\transformed\\cscore-cpp-2022.2.1-sources\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\cf5140d6c7ac5d89a714ad04d846a876\\transformed\\opencv-cpp-4.5.2-1-sources\\"
+    ],
+    "allLibHeaders": [
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4cccab41a37d793ff70d875b35caa88a\\transformed\\wpilibNewCommands-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\6dc3ad02e43d929517c391ac9a9dac33\\transformed\\REVLib-cpp-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\7a61e0aad79958fc99226156420a2d06\\transformed\\REVLib-driver-2022.1.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\954abdf33839f981d6374e34584edf97\\transformed\\wpiapi-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\77f721fd31d528591355a57fd2f19887\\transformed\\api-cpp-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8ade757934480051b4bffa61959578b7\\transformed\\cci-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\289c4a08d5efd012977c1dccd46fe330\\transformed\\wpiapi-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\43979cbbec3e3591d59226dbc792d5cd\\transformed\\api-cpp-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\3a0482c9f3da43d2ee9005c69985c895\\transformed\\cci-sim-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\eebebb3fb08beac810afe57c1c316324\\transformed\\simTalonSRX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0419c3d31683d3be169212c2ffdc38d3\\transformed\\simTalonFX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\e405f9186c34fd187bedf3f909224b28\\transformed\\simVictorSPX-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9f71bb3a0754c3bf1be902a5097b83b3\\transformed\\simPigeonIMU-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9938d4c04407f39de8f6b1dec177774c\\transformed\\simCANCoder-5.21.4-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b67e108595ab25f47ef827106d790925\\transformed\\wpilibc-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8c825e32ef0d45396ff4d6b5b4937ed3\\transformed\\ntcore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\88abfe04a35b3fcd84bd04938d1f33d0\\transformed\\hal-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\5c1c94f97287023fee0f6524873cd253\\transformed\\wpimath-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\69df7e4e2d0aa81d2577a172da97fdae\\transformed\\wpiutil-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fc3a5549f7273f9b818e7f274a78d986\\transformed\\netcomm-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4a9fca9c1d266d5b95618580c10e0e0e\\transformed\\chipobject-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\229622b710d76f720bbb57836edc0b6c\\transformed\\visa-2022.2.3-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\94c64972d2b2bcd41b5dd78b3e64bb00\\transformed\\cameraserver-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fa78e87fd47dd645adeeadb32a79fd94\\transformed\\cscore-cpp-2022.2.1-headers\\",
+      "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0010e3dd4a581fe91f56df7d2c1bbbd0\\transformed\\opencv-cpp-4.5.2-1-headers\\",
+      "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4cccab41a37d793ff70d875b35caa88a\\transformed\\wpilibNewCommands-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\6dc3ad02e43d929517c391ac9a9dac33\\transformed\\REVLib-cpp-2022.1.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\7a61e0aad79958fc99226156420a2d06\\transformed\\REVLib-driver-2022.1.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\954abdf33839f981d6374e34584edf97\\transformed\\wpiapi-cpp-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\77f721fd31d528591355a57fd2f19887\\transformed\\api-cpp-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8ade757934480051b4bffa61959578b7\\transformed\\cci-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\289c4a08d5efd012977c1dccd46fe330\\transformed\\wpiapi-cpp-sim-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\43979cbbec3e3591d59226dbc792d5cd\\transformed\\api-cpp-sim-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\3a0482c9f3da43d2ee9005c69985c895\\transformed\\cci-sim-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\eebebb3fb08beac810afe57c1c316324\\transformed\\simTalonSRX-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0419c3d31683d3be169212c2ffdc38d3\\transformed\\simTalonFX-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\e405f9186c34fd187bedf3f909224b28\\transformed\\simVictorSPX-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9f71bb3a0754c3bf1be902a5097b83b3\\transformed\\simPigeonIMU-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\9938d4c04407f39de8f6b1dec177774c\\transformed\\simCANCoder-5.21.4-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\b67e108595ab25f47ef827106d790925\\transformed\\wpilibc-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\8c825e32ef0d45396ff4d6b5b4937ed3\\transformed\\ntcore-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\88abfe04a35b3fcd84bd04938d1f33d0\\transformed\\hal-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\5c1c94f97287023fee0f6524873cd253\\transformed\\wpimath-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\69df7e4e2d0aa81d2577a172da97fdae\\transformed\\wpiutil-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fc3a5549f7273f9b818e7f274a78d986\\transformed\\netcomm-2022.2.3-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\4a9fca9c1d266d5b95618580c10e0e0e\\transformed\\chipobject-2022.2.3-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\229622b710d76f720bbb57836edc0b6c\\transformed\\visa-2022.2.3-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\94c64972d2b2bcd41b5dd78b3e64bb00\\transformed\\cameraserver-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\fa78e87fd47dd645adeeadb32a79fd94\\transformed\\cscore-cpp-2022.2.1-headers\\",
+          "C:\\Users\\kians\\.gradle\\caches\\transforms-3\\0010e3dd4a581fe91f56df7d2c1bbbd0\\transformed\\opencv-cpp-4.5.2-1-headers\\",
+          "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\kians\\Desktop\\TESTING\\src\\main\\include\\"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
